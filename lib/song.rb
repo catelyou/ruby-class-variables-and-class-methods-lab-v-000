@@ -1,5 +1,5 @@
 class Song
-  attr_accessor: name
-  attr_accessor: artist
-  attr_accessor: genre
+  def initialize
+    attr_accessor :name, :genre, :artist
+  end
 end
